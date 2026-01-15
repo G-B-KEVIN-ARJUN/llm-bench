@@ -1,0 +1,76 @@
+{
+  "summary": {
+    "model": "Llama-3-8B-Instruct",
+    "latency": 7.5678167819976805,
+    "ttft": 0.6652970790863038,
+    "tpot": 0.05996690213473747,
+    "throughput": 15.389412712518123,
+    "rouge": {
+      "rouge1": 0.35265941745309615,
+      "rouge2": 0.1558183714911736,
+      "rougeL": 0.2245768863854904,
+      "rougeLsum": 0.28798262317138523
+    },
+    "bleu": {
+      "bleu": 0.07941037012045986,
+      "precisions": [
+        0.2559852670349908,
+        0.10408921933085502,
+        0.05628517823639775,
+        0.026515151515151516
+      ],
+      "brevity_penalty": 1.0,
+      "length_ratio": 2.4681818181818183,
+      "translation_length": 543,
+      "reference_length": 220
+    },
+    "bert_score_f1": 0.8698723793029786
+  },
+  "detailed_runs": [
+    {
+      "generated": "Here is a summary of the article in 3 sentences:\n\nThe Palestinian Authority officially became the 123rd member of the International Criminal Court (ICC) on Wednesday, giving the court jurisdiction over alleged crimes in Palestinian territories. The move allows the ICC to open a preliminary examination into the situation in Palestinian territories, which could lead to war crimes investigations against Israelis. The ICC's membership is seen as a step towards greater justice, but Israel and the US, which are not ICC members, have opposed the move and expressed concerns about the court's jurisdiction over the territories.",
+      "reference": "Membership gives the ICC jurisdiction over alleged crimes committed in Palestinian territories since last June .\nIsrael and the United States opposed the move, which could open the door to war crimes investigations against Israelis .",
+      "latency": 8.048020362854004,
+      "ttft": 1.5265920162200928,
+      "tpot": 0.05822703880923135,
+      "speed_tps": 14.040719941708463,
+      "total_tokens": 113
+    },
+    {
+      "generated": "Here is a summary of the article in 3 sentences:\n\nA stray dog named Theia in Washington State has survived a series of incredible ordeals, including being hit by a car, struck on the head with a hammer, and buried in a field, only to emerge alive four days later. The dog, now named Theia, is receiving treatment at a veterinary hospital and requires surgery to help her breathe and repair her dislocated jaw and leg injuries. A fundraising page has been set up to help cover the cost of Theia's medical care, and donors have already surpassed the $10,000 target inspired by her remarkable story of survival.",
+      "reference": "Theia, a bully breed mix, was apparently hit by a car, whacked with a hammer and buried in a field .\n\"She's a true miracle dog and she deserves a good life,\" says Sara Mellado, who is looking for a home for Theia .",
+      "latency": 8.297866582870483,
+      "ttft": 0.44697141647338867,
+      "tpot": 0.06039150127997765,
+      "speed_tps": 15.787190441266787,
+      "total_tokens": 131
+    },
+    {
+      "generated": "Here is a summary of the article in 3 sentences:\n\nMohammad Javad Zarif, Iran's foreign minister, has been working to secure a breakthrough in nuclear discussions with the US, which could lead to an end to sanctions against Iran. Despite being a key figure in international diplomacy, there are some lesser-known facts about Zarif, including his tweets about the Jewish New Year and his educational background in the US. Zarif has also had a complex history, including his involvement in the Iranian Revolution and his alleged role in controlling a charitable organization that was investigated by the US government.",
+      "reference": "Mohammad Javad Zarif has spent more time with John Kerry than any other foreign minister .\nHe once participated in a takeover of the Iranian Consulate in San Francisco .\nThe Iranian foreign minister tweets in English .",
+      "latency": 8.086046695709229,
+      "ttft": 0.6729536056518555,
+      "tpot": 0.06335977000049037,
+      "speed_tps": 14.593039644776649,
+      "total_tokens": 118
+    },
+    {
+      "generated": "Here is a summary of the article in 3 sentences:\n\nFive American clinicians who were exposed to Ebola in Sierra Leone in March have been released from a Nebraska hospital after being monitored for three weeks. One of the five had a heart-related issue and has been discharged, but has not left the area, while the others have returned home. The group, who are all from the Boston-based aid group Partners in Health, were exposed to Ebola after coming into contact with a colleague who was diagnosed with the disease.",
+      "reference": "17 Americans were exposed to the Ebola virus while in Sierra Leone in March .\nAnother person was diagnosed with the disease and taken to hospital in Maryland .\nNational Institutes of Health says the patient is in fair condition after weeks of treatment .",
+      "latency": 6.2542335987091064,
+      "ttft": 0.29320526123046875,
+      "tpot": 0.059020082549293446,
+      "speed_tps": 16.308952710217465,
+      "total_tokens": 102
+    },
+    {
+      "generated": "Here is a summary of the article in 3 sentences:\n\nA Duke University student has admitted to hanging a noose made of rope from a tree near a student union, sparking outrage and a student-led march on campus. The student, who was not identified due to federal privacy laws, will face a student conduct review and is no longer on campus. The incident is one of several recent racist events to affect college students, and university officials have condemned the \"cowardly act\" as a \"hateful and stupid\" act that will have the opposite effect of creating fear.",
+      "reference": "Student is no longer on Duke University campus and will face disciplinary review .\nSchool officials identified student during investigation and the person admitted to hanging the noose, Duke says .\nThe noose, made of rope, was discovered on campus about 2 a.m.",
+      "latency": 7.152916669845581,
+      "ttft": 0.3867630958557129,
+      "tpot": 0.058836118034694504,
+      "speed_tps": 16.217160824621242,
+      "total_tokens": 116
+    }
+  ]
+}

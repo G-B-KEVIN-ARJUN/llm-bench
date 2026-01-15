@@ -5,8 +5,11 @@ hf_token = os.getenv("HF_TOKEN")
 
 login(token = hf_token)
 
-model_id = "meta-llama/Meta-Llama-3-8b-Instruct"
-local_folder = "./models/llama3-8b"
+# model_id = "meta-llama/Meta-Llama-3-8b-Instruct"
+# local_folder = "./models/llama3-8b"
+
+model_id = "mistralai/Mistral-7B-Instruct-v0.3"
+local_folder = "./models/mistral-7b-v0.3"
 
 print(f"Downloading model {model_id} to {local_folder}... ")
 
