@@ -15,8 +15,14 @@ load_dotenv()
 # model_path = "./models/llama3-8b"
 # output_file = "benchmark_results.json"
 
-model_path = "./models/mistral-7b-v0.3"
-output_file = "benchmark_results_mistral_pytorch.json"
+# model_path = "./models/mistral-7b-v0.3"
+# output_file = "benchmark_results_mistral_pytorch.json"
+
+# model_path = "./models/gemma-2-9b" 
+# output_file = "benchmark_results_gemma_pytorch.json"
+
+model_path = "./models/qwen-2.5-7b"
+output_file = "benchmark_results_qwen2.5_pytorch.json"
 
 # Load Metrics
 print("Loading Metrics (ROUGE, BERTScore, BLEU)...")
@@ -62,6 +68,11 @@ for item in tqdm(dataset):
         {"role": "system", "content": "Summarize the following article in 3 sentences."},
         {"role": "user", "content": article}
     ]
+
+    # # NEW CODE (Correct for Gemma)
+    # messages = [
+    #     {"role": "user", "content": f"Summarize the following article in 3 sentences:\n\n{article}"}
+    # ]
     
     input_ids = tokenizer.apply_chat_template(messages, return_tensors="pt", add_generation_prompt=True).to("cuda")
     attention_mask = input_ids.ne(tokenizer.pad_token_id).long()
@@ -152,7 +163,7 @@ print("="*50)
 # Save to file
 output_data = {
     "summary": {
-        "model": "Llama-3-8B-Instruct",
+        "model": "Llama-3-8B-Instruct", #update according to model
         "latency": avg_latency,    # <--- Renamed to simple keys
         "ttft": avg_ttft,
         "tpot": avg_tpot,

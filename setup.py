@@ -12,8 +12,16 @@ login(token = hf_token)
 # local_folder = "./models/mistral-7b-v0.3"
 
 # Update these lines in setup.py
-model_id = "google/gemma-2-9b-it" 
-local_folder = "./models/gemma-2-9b"
+# model_id = "google/gemma-2-9b-it" 
+# local_folder = "./models/gemma-2-9b"
+
+
+
+model_id = "microsoft/Phi-3-small-8k-Instruct"
+local_folder = "./models/phi-3-small-8k-instruct"
+
+# model_id = "Qwen/Qwen2.5-7B-Instruct" 
+# local_folder = "./models/qwen-2.5-7b"
 
 print(f"Downloading model {model_id} to {local_folder}... ")
 

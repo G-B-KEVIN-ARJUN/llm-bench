@@ -1,0 +1,76 @@
+{
+  "summary": {
+    "model": "gemma-2-9b",
+    "latency": 20.740836095809936,
+    "ttft": 1.3530846118927002,
+    "tpot": 0.19975507269523524,
+    "throughput": 5.468019883959944,
+    "rouge": {
+      "rouge1": 0.3853551912568306,
+      "rouge2": 0.1421800062681728,
+      "rougeL": 0.25442032981542817,
+      "rougeLsum": 0.3069065383033747
+    },
+    "bleu": {
+      "bleu": 0.07943621147704415,
+      "precisions": [
+        0.2943820224719101,
+        0.10454545454545454,
+        0.05057471264367816,
+        0.02558139534883721
+      ],
+      "brevity_penalty": 1.0,
+      "length_ratio": 2.022727272727273,
+      "translation_length": 445,
+      "reference_length": 220
+    },
+    "bert_score_f1": 0.8830105543136597
+  },
+  "detailed_runs": [
+    {
+      "generated": "The Palestinian Authority officially joined the International Criminal Court (ICC) on Wednesday, granting the court jurisdiction over alleged crimes in Palestinian territories since June 2014. This move, welcomed by rights groups, allows the ICC to potentially investigate war crimes committed by both Israelis and Palestinians, though Israel and the United States, both non-members of the ICC, strongly oppose the decision.  The ICC's preliminary examination, which began in January, will now proceed with a full review of evidence to determine whether formal investigations are warranted. \n\n\n",
+      "reference": "Membership gives the ICC jurisdiction over alleged crimes committed in Palestinian territories since last June .\nIsrael and the United States opposed the move, which could open the door to war crimes investigations against Israelis .",
+      "latency": 15.56895661354065,
+      "ttft": 3.4309961795806885,
+      "tpot": 0.1123885225366663,
+      "speed_tps": 7.001111423561962,
+      "total_tokens": 109
+    },
+    {
+      "generated": "A stray dog named Theia in Washington State survived being hit by a car, allegedly bludgeoned with a hammer, and buried alive.  After four days, she managed to escape and was found by a farm worker who took her to a vet, where she is now receiving treatment for her injuries.  Theia's story has inspired people to donate to her medical fund, exceeding the initial goal, and highlighting the resilience of animals. \n\n\n",
+      "reference": "Theia, a bully breed mix, was apparently hit by a car, whacked with a hammer and buried in a field .\n\"She's a true miracle dog and she deserves a good life,\" says Sara Mellado, who is looking for a home for Theia .",
+      "latency": 11.97683072090149,
+      "ttft": 0.7252192497253418,
+      "tpot": 0.12230012468669725,
+      "speed_tps": 7.764992439752872,
+      "total_tokens": 93
+    },
+    {
+      "generated": "Mohammad Javad Zarif, Iran's foreign minister, is known for his diplomatic efforts in securing a nuclear deal with the U.S. and his approachable demeanor.  However, less known facts about Zarif include his past involvement in the Iranian Revolution, his education in the United States, and a past investigation into his alleged role in a money laundering scheme. Despite these controversies, Zarif has become a key figure in international diplomacy, spending more time with U.S. Secretary of State John Kerry than any other foreign minister. \n\n\n",
+      "reference": "Mohammad Javad Zarif has spent more time with John Kerry than any other foreign minister .\nHe once participated in a takeover of the Iranian Consulate in San Francisco .\nThe Iranian foreign minister tweets in English .",
+      "latency": 24.812575101852417,
+      "ttft": 1.223663568496704,
+      "tpot": 0.21641203241610746,
+      "speed_tps": 4.433235951869736,
+      "total_tokens": 110
+    },
+    {
+      "generated": "Five American clinicians who were exposed to Ebola in Sierra Leone have been released from a Nebraska hospital after a three-week monitoring period.  None of the individuals contracted the virus, although one experienced a heart-related issue and remains in the area.  The release of these five individuals marks a significant step in containing the ongoing Ebola outbreak in West Africa, which has claimed the lives of over 10,000 people. \n\n\n",
+      "reference": "17 Americans were exposed to the Ebola virus while in Sierra Leone in March .\nAnother person was diagnosed with the disease and taken to hospital in Maryland .\nNational Institutes of Health says the patient is in fair condition after weeks of treatment .",
+      "latency": 33.219221353530884,
+      "ttft": 0.5549850463867188,
+      "tpot": 0.3711845034902746,
+      "speed_tps": 2.6791717678397706,
+      "total_tokens": 89
+    },
+    {
+      "generated": "A Duke University student admitted to hanging a noose from a tree near a student union, prompting outrage and protests on campus.  The university is conducting a student conduct review and criminal investigations are ongoing, while officials are also trying to determine if others were involved. This incident is part of a larger trend of racist events on college campuses, including a fraternity at the University of Oklahoma being shut down for racist chanting and a noose being hung around a statue at the University of Mississippi.  \n\n\n",
+      "reference": "Student is no longer on Duke University campus and will face disciplinary review .\nSchool officials identified student during investigation and the person admitted to hanging the noose, Duke says .\nThe noose, made of rope, was discovered on campus about 2 a.m.",
+      "latency": 18.126596689224243,
+      "ttft": 0.8305590152740479,
+      "tpot": 0.17649018034643058,
+      "speed_tps": 5.46158783677538,
+      "total_tokens": 99
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "summary": {
-    "model": "Llama-3-8B-Instruct",
+    "model": "mistral-7b-v0.3",
     "latency": 27.69659733772278,
     "ttft": 1.0544344902038574,
     "tpot": 0.18830322156065987,
